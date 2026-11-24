@@ -6,6 +6,7 @@ I'm Mitali Jinadra, a BCA student at Christ College, Saurashtra University, pass
 
 ## 🌐 Live Portfolio
 [Visit My Portfolio](https://mitalijinadra.github.io/Mitali-Portfolio/)
+![Mitali Jinadra Portfolio Preview](portfolio-preview.png)
 
 ## 👩‍💻 About Me
 - BCA Student (2024–2027)
