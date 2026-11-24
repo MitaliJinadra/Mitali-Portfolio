@@ -468,3 +468,64 @@ footer {
     transform: translateY(0);
 }
 
+
+/* PROFILE PHOTO */
+.profile-photo {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 25px;
+    border: 2px solid #a855f7;
+    box-shadow: 0 0 35px rgba(168, 85, 247, 0.35);
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: translateY(-8px);
+}
+
+/* PROFESSIONAL SOCIAL MEDIA BUTTONS */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 20px;
+    background: rgba(181, 106, 255, 0.08);
+    border: 1px solid rgba(181, 106, 255, 0.4);
+    border-radius: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.social-links a i {
+    font-size: 19px;
+    color: #b56aff;
+}
+
+.social-links a:hover {
+    background: rgba(181, 106, 255, 0.18);
+    border-color: #b56aff;
+    transform: translateY(-4px);
+    box-shadow: 0 5px 20px rgba(181, 106, 255, 0.2);
+}
+/* Adjust spacing between About and Skills */
+#about {
+    padding-bottom: 35px;
+}
+
+#skills {
+    padding-top: 35px;
+}
