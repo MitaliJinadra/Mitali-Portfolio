@@ -404,13 +404,13 @@ footer {
         justify-content: center;
     }
 
-    .skills-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
+   .skills-container {
+    grid-template-columns: 1fr;
+}
 
-    .projects-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.projects-container {
+    grid-template-columns: 1fr;
+}
 
     .nav-links {
         gap: 12px;
@@ -534,4 +534,37 @@ footer {
 
 #skills {
     padding-top: 35px;
+}
+/* Mobile hero image and card layout */
+@media (max-width: 600px) {
+    .hero-decoration {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-width: 0;
+        min-height: auto;
+        gap: 25px;
+    }
+
+    .profile-photo {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        aspect-ratio: 4 / 5;
+    }
+
+    .hero-card {
+        width: 100%;
+        max-width: 300px;
+        box-sizing: border-box;
+    }
+}
+/* FINAL MOBILE LAYOUT FIX */
+@media (max-width: 900px) {
+    .skills-container,
+    .projects-container {
+        grid-template-columns: minmax(0, 1fr) !important;
+        width: 100%;
+    }
 }
